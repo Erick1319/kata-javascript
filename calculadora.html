@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="calculadora.css" rel="stylesheet" type="text/css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="contenedor">
+    <form name="calculadora" id="calculadora">
+            <input type="textfield" name="pantalla" value="" autocomplete="off" readonly>
+            <br>    
+            <input type="button" class="button" value="7" onclick="document.calculadora.pantalla.value+='7'">
+            <input type="button" class="button" value="8" onclick="document.calculadora.pantalla.value+='8'">
+            <input type="button" class="button" value="9" onclick="document.calculadora.pantalla.value+='9'">
+            <input type="button" class="button" value="+" onclick="document.calculadora.pantalla.value+='+'">
+            <br>
+            <input type="button" class="button" value="4" onclick="document.calculadora.pantalla.value+='4'">
+            <input type="button" class="button" value="5" onclick="document.calculadora.pantalla.value+='5'">
+            <input type="button" class="button" value="6" onclick="document.calculadora.pantalla.value+='6'">
+            <input type="button" class="button" value="-" onclick="document.calculadora.pantalla.value+='-'">
+            <br>
+            <input type="button" class="button" value="1" onclick="document.calculadora.pantalla.value+='1'">
+            <input type="button" class="button" value="2" onclick="document.calculadora.pantalla.value+='2'">
+            <input type="button" class="button" value="3" onclick="document.calculadora.pantalla.value+='3'">
+            <input type="button" class="button" value="X" onclick="document.calculadora.pantalla.value+='*'">
+            <br>
+            <input type="button" class="button" value="0" onclick="document.calculadora.pantalla.value+='0'" >
+            <input type="reset"  class="button"value="CE">
+            <input type="button" class="button" value="=" onclick="document.calculadora.pantalla.value=eval(document.calculadora.pantalla.value)">
+            <input type="button" class="button" value="/" onclick="document.calculadora.pantalla.value+='/'">
+    </form>
+    </div>
+</body>
+</html>
