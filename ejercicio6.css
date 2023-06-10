@@ -1,0 +1,77 @@
+/* colores generales de la página */
+html{
+    display:flex;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(/fondo.jpeg);
+    background-position:inherit;
+    background-size:cover;
+    justify-content: center;
+}
+/* toda la configuración del body */
+body{
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 20%;
+    display:flex;
+    flex-flow: column wrap ;
+    width: 50%;
+    height: 50%;
+    align-content: center;
+    padding-bottom: 30px;
+
+}
+/* todos los valores del header */
+header{
+    
+    margin-top: 50px;
+    color:blue;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    width: 500px;
+    height: auto;
+    padding-top:30px;
+    padding-bottom: 30px;
+
+}
+#container{
+    width: 500px;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+
+}
+/* .botones{
+    display: flex;
+    align-items: center;
+} */
+.boton{
+    margin-top: 40px;
+    padding: 20px;
+    width: auto;
+    height:auto;
+    background-color:coral;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.boton:hover{
+    margin-top: 40px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background-color:yellow;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    cursor: pointer;
+    box-shadow: -1px 3px 92px -34px rgba(255,255,255,0.36) inset;
+-webkit-box-shadow: -1px 3px 92px -34px rgba(255,255,255,0.36) inset;
+-moz-box-shadow: -1px 3px 92px -34px rgba(255,255,255,0.36) inset;
+}
